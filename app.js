@@ -43,7 +43,7 @@ export default function App() {
     <div className="App">
       <h1 className="title">🍽️ Hungry Vibes</h1>
       <p className="subtitle">
-        Discover delicious recipes by ingredient (try: chicken, pasta, tomato...)
+        Discover delicious recipes by ingredient (try: chicken, rice, egg...)
       </p>
       <div className="search-bar">
         <input
