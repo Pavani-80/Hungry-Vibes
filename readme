@@ -1,0 +1,34 @@
+# 🍽️ Hungry Vibes
+
+A quick recipe finder web app for Taylor, a busy professional who wants to decide what to cook using ingredients already in the kitchen.
+
+## Features
+- Search recipes by main ingredient
+- Responsive foodie-themed interface
+- Recipe cards with images, recipe name, and links to full details
+- Error handling and user tips
+- Powered by TheMealDB API
+
+## How to Use
+1. Type a single ingredient (e.g., chicken, potato, rice, macaroni).
+2. Press Enter or "Search".
+3. Click on recipe cards to view details.
+
+## Demo
+- [Live Demo](https://codesandbox.io/p/sandbox/hungry-vibes-4h7t7t)
+- [CodeSandbox Source](https://codesandbox.io/s/your-hungry-vibes)
+
+## Tech Stack
+- React.js (Frontend)
+- Vanilla CSS for styling
+- [TheMealDB](https://www.themealdb.com/api.php) for recipe data
+
+---
+
+## User Persona
+**Taylor**, a busy professional, wants help cooking at home based on what's in the kitchen.
+
+---
+
+## AI Work Process
+This app was designed, discussed, and incrementally improved using AI-led guidance for design, component structure, styling, error handling, final branding, and submission preparation.
