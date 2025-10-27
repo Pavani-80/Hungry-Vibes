@@ -15,8 +15,8 @@ A quick recipe finder web app for Taylor, a busy professional who wants to decid
 3. Click on recipe cards to view details.
 
 ## Demo
-- [Live Demo](https://codesandbox.io/p/sandbox/hungry-vibes-4h7t7t)
-- [CodeSandbox Source](https://codesandbox.io/s/your-hungry-vibes)
+-**Live App:** https://4h7t7t.csb.app/
+- **Source Code:** https://codesandbox.io/p/sandbox/hungry-vibes-4h7t7t
 
 ## Tech Stack
 - React.js (Frontend)
