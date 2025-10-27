@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:
+    linear-gradient(rgba(250, 242, 225, 0.93), rgba(255, 255, 255, 0.96)),
+    url('https://images.unsplash.com/photo-1516685018646-5499d00bae95?auto=format&fit=crop&w=1400&q=80')
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  max-width: 900px;
+  margin: 35px auto 10px auto;
+  padding: 20px;
+  background: rgba(255,255,255, 0.96);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(40,70,150,0.09);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: #ce5100;
+}
+
+.subtitle {
+  text-align: center;
+  color: #994404;
+  margin-bottom: 22px;
+  font-size: 1.07em;
+  font-weight: 500;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  padding: 11px 15px;
+  font-size: 1.1em;
+  border: 1.5px solid #b5bdd6;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s;
+  width: 240px;
+  background: #fffbe4;
+}
+input[type="text"]:focus {
+  border: 1.5px solid #e67d22;
+  background: #fff3cb;
+}
+
+button {
+  padding: 11px 24px;
+  background: #e67d22;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.03em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #b25400;
+}
+
+.status {
+  color: #b25400;
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+.error {
+  color: #c41515;
+  text-align: center;
+  margin: 13px 0;
+  font-weight: bold;
+}
+
+.recipes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.recipe-card {
+  background: #fffaf6;
+  border: 1.5px solid #f3e2d0;
+  border-radius: 13px;
+  width: 210px;
+  margin: 6px;
+  box-shadow: 0 2px 16px rgb(222 120 40 / 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+  outline: none;
+}
+.recipe-card:hover,
+.recipe-card:focus {
+  transform: translateY(-5px) scale(1.022);
+  box-shadow: 0 8px 28px rgb(255 169 59 / 21%);
+  border-color: #e67d22;
+}
+
+.recipe-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 7.5px 7.5px 0 0;
+}
+
+.recipe-name {
+  margin: 16px 0 17px 0;
+  font-size: 1.1em;
+  color: #99470a;
+  padding: 0 14px;
+}
+
+footer {
+  margin-top: 34px;
+  text-align: center;
+  color: #ad7641;
+  font-size: 0.98em;
+}
+footer a {
+  color: #c24607;
+  text-decoration: none;
+  font-weight: 600;
+}
